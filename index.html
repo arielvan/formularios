@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+
+  <form action="url-do-site-pra-onde-vai-a-info.php">
+    <p>Nome</p>
+    <input type="text" name="texto" placeholder="Insert your text" required>
+
+    <p>Senha</p>
+    <input type="password" name="senha" placeholder="Insert your password" required>
+
+    <div>
+      <p>Escolha uma ou múltipla opções</p>
+      <div>
+        <input type="checkbox" name="qualidade" value="mulher" >
+        <label for="qualidade"> Mulher</label>
+      </div>
+
+      <div>
+        <input type="checkbox"name="qualidade" value="poderosa">
+        <label for="qualidade">Poderosa</label>
+      </div>
+
+      <div>
+        <input type="checkbox" name="qualidade" value="linda">
+        <label for="qualidade">Linda</label>
+      </div>
+    
+      <div>
+        <input type="checkbox" name="qualidade" value="Maravilhosa">
+        <label for="qualidade">Maravilhosa</label>
+      </div>
+    </div>    
+
+    <div>
+      <p>Escolha uma opção</p>
+      <div>
+        <input type="radio" name="poderes" value="superForca" >
+        <label for="poderes">Super Força</label>
+      </div>
+
+      <div>
+        <input type="radio"name="poderes" value="poderosa">
+        <label for="poderes">Ser Invisível</label>        
+      </div>
+
+      <div>
+        <input type="radio" name="poderes" value="linda">
+        <label for="poderes">Ler Mentes</label>
+      </div>
+    
+      <div>
+        <input type="radio" name="poderes" value="Maravilhosa">
+        <label for="poderes">Super Velocidade</label>
+      </div>
+    </div>    
+
+    <div>
+      <p>Selecione Dropdown</p>
+      <select name="frase">
+        <option value="frase1">Frasee1</option>
+        <option value="frase1">Frasee2</option>
+        <option value="frase1">Frasee3</option>
+      </select>
+      
+    </div>
+
+    <div>
+      <p>Escolha um valor</p>
+      <input type="number"> <!--Descobrir como limitar o intervalo de números-->
+    </div>
+
+    <div>
+      <label for="comments">Comentários</label> <!--Qual diferença criar <p> para comentários ou <label>--> 
+      <textarea name="comments" rows="10"></textarea>
+    </div>
+    
+    <div class="submit-buttom">
+      <input type="submit" value="enviar">
+    </div>
+   
+  </form>
+  
+</body>
+</html>
